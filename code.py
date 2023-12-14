@@ -20,3 +20,8 @@ class DataValidator:
         return valid_integers
 
 
+validator = DataValidator()
+input_list = ["1", "2", "three", "4", "-5"]
+valid_list = validator.validate_inputs(input_list)
+print(valid_list)
+
